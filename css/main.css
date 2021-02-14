@@ -72,6 +72,7 @@
   margin-top: 10px;
   font-size: 36px;
   font-weight: 600;
+  margin-bottom: 20px;
 }
 
 #productImages
@@ -228,29 +229,16 @@
 .product3
 {
 
-  height: 200px;
-  width: 200px;
+
 }
 
+@keyframes slidein {
+  from {
+    margin-left: 85%;
+    width: 300%;
+  }
 
-#contactForm
-{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 500px;
-  width: 420px;
-  float: right;
-}
 
-#mapSection
-{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 500px;
-  width: 420px;
-  margin-top: 100px;
 }
 
 #map
@@ -259,7 +247,27 @@
   height: 400px;
 }
 
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  box-sizing: border-box; 
+  margin-top: 20px; 
+  margin-bottom: 16px;
+  }
 
+  background-color: #CA9D42;
+  color: #29412B;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
+input[type=submit]:hover {
+  background-color: #A57319;
+}
 
-
+.container {
+  border-radius: 5px;
+  background-color: #29412B;
+  padding: 10px;
+}
