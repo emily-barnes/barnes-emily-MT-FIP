@@ -217,7 +217,22 @@
 
 
 
+h1 {
+  animation-duration: 6s;
+  animation-name: slidein;
+}
 
+@keyframes slidein {
+  from {
+    margin-left: 85%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 
 
 
