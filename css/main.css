@@ -72,6 +72,7 @@
   margin-top: 10px;
   font-size: 36px;
   font-weight: 600;
+  margin-bottom: 20px;
 }
 
 #productImages
@@ -228,35 +229,37 @@
 .product3
 {
 
-  height: 200px;
-  width: 200px;
+
 }
 
+@keyframes slidein {
+  from {
+    margin-left: 85%;
+    width: 300%;
+  }
 
-.collapsible {
-  background-color: #29412B;
-  color: white;
-  cursor: pointer;
-  padding: 20px;
-  padding-top:10px;
-  width: 30%;
-  height: 20px;
-  text-align: center;
-  outline: none;
-  font-size: 20px;
+
 }
 
 .active, .collapsible:hover {
   background-color: #2E7231;
 }
 
-.content {
-  padding: 0 14px;
-  display: none;
-  overflow: hidden;
-  background-color: #29412B;
+
+
+  background-color: #CA9D42;
+  color: #29412B;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
+input[type=submit]:hover {
+  background-color: #A57319;
+}
 
-
-
+.container {
+  border-radius: 5px;
+  background-color: #29412B;
+  padding: 10px;
+}
