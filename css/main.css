@@ -190,8 +190,29 @@
   width: 200px;
 }
 
+#textImage1
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 920px;
+  height: 300px;
+  margin: 0px;
+  margin-left: 0px;
+  margin-top: 70px;
+}
 
-
+#textImage2
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 920px;
+  height: 300px;
+  margin: 0px;
+  margin-left: 0px;
+  margin-top: 70px;
+}
 
 
 
