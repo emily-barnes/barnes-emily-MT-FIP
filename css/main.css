@@ -233,8 +233,29 @@
 }
 
 
+.collapsible {
+  background-color: #29412B;
+  color: white;
+  cursor: pointer;
+  padding: 20px;
+  padding-top:10px;
+  width: 30%;
+  height: 20px;
+  text-align: center;
+  outline: none;
+  font-size: 20px;
+}
 
+.active, .collapsible:hover {
+  background-color: #2E7231;
+}
 
+.content {
+  padding: 0 14px;
+  display: none;
+  overflow: hidden;
+  background-color: #29412B;
+}
 
 
 
